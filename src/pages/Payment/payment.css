@@ -1,0 +1,81 @@
+
+.paymentPage{
+    height: 100vh;
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pizzaInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paymentContainer {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.paymentInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: var(--montserrat);
+    margin: 15px 0;
+}
+
+.pizzaImg img{
+    width: 500px;
+}
+
+.paymentInfo h3{
+    font-size: 1.3rem;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.paymentInfo h3 span{
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+.paymentContainer h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.paymentContainer form {
+    display: flex;
+    flex-direction: column;
+}
+
+.paymentContainer label {
+    margin-bottom: 5px;
+}
+
+.paymentContainer input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.paymentContainer button {
+    padding: 10px 20px;
+    background-color: var(--primary-col-four);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.paymentContainer button:hover {
+    background-color: var(--primary-col-three);
+}
